@@ -20,6 +20,14 @@ body {
   border: 2px solid #000;
   border-radius: 10px;
   background-color: whitesmoke;
+  outline: 5px solid white;
+  outline-offset: 2px;
+  box-shadow: 10px 10px 4px 2px;
+}
+
+.container:hover {
+  outline: 5px solid white;
+  outline-offset: -5px;
 }
 
 .flex-row {
@@ -87,3 +95,11 @@ input:invalid {
   padding: 0.35rem;
   border-radius: 5px;
 }
+
+/* @media screen and (min-width: 764px) {
+  .flex-row {
+    display: flex;
+    flex-direction: column wrap;
+    flex: 1 0 100px;
+  }
+} */

@@ -1,5 +1,5 @@
-import {ProductProvider} from './context/ProductContext';
-import Products from "./Products";
+import {ProductProvider} from 'context/ProductContext';
+import Products from "pages/Products";
 
 //TODO Error boundary, useRef to select inpiut, fetch faker
 

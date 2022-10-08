@@ -2,7 +2,7 @@ import { createContext, useReducer } from 'react';
 
 const ProductContext = createContext({});
   const initialState = {
-    data: [],
+    data: [{ productName: "Apple", quantity: "100" }, { productName: "Mango", quantity: "200" }],
     product: { productName: "", quantity: "" },
     id: null,
   }
