@@ -1,6 +1,7 @@
 import ListProducts from "components/ListProducts";
 import SaveProducts from "components/SaveProducts";
 import ErrorBoundary from "components/ErrorBoundary";
+import GetPreviousValue from "components/GetPreviousValue";
 
 const Products = () => {
   return (
@@ -12,6 +13,9 @@ const Products = () => {
         </ErrorBoundary>
         <ErrorBoundary>
           <ListProducts />
+        </ErrorBoundary>
+        <ErrorBoundary>
+          <GetPreviousValue />
         </ErrorBoundary>
       </section>
     </main>
